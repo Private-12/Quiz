@@ -1,0 +1,75 @@
+body {
+    background-color: darkslateblue;
+    overflow: visible;
+}
+h1 { 
+    text-align: center;
+    color: red
+}
+.Boxes {
+    color: rgb(99, 1, 99);
+    background-color: pink;
+}
+.A {
+    text-align: left;
+}
+.B {
+    text-align: right;
+}
+div {
+  width: 33%;
+  display: inline-block;
+}
+a {
+    text-align: center;
+    color: darkslateblue;
+}
+.link{
+    background-color: lightcoral;
+    font-size: xx-large;
+    text-align: center;   
+}
+.link:hover{ 
+    background-color: blue;
+    color:red;}
+li {
+    display: inline;
+}
+ul {background-color: lightcoral;
+    list-style-type: none;
+    margin: 0;
+    overflow:hidden;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width:-webkit-fill-available;
+    line-height: 3 !important;
+}
+li a.nav{
+    text-align:center ;
+    display:block;
+    padding-top:10%;
+    padding-bottom:100%;
+    padding-left:2.5%;
+    padding-right:2.5%;
+    background-color: lightcoral;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid pink;
+}
+li a.nav:hover{
+    background-color: crimson;
+}
+.q {float:inline-end; 
+    text-align:center;
+    display:block;
+    padding-top:0%;
+    padding-bottom:100%;
+    padding-left:2.5%;
+    padding-right: 1%;
+    background-color: lightcoral;
+    color: white;
+    text-decoration: none;
+    border-right: none !important;
+   }
