@@ -74,3 +74,6 @@ li a.nav:hover{
     text-decoration: none;
     border-right: none !important;
    }
+   .active {
+    background-color: darkred;
+   }
