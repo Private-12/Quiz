@@ -22,7 +22,7 @@
 <br>Chris-Teacher</p>
 </div>
 <ul>
-    <li><a class="nav" href="index">Home</a></li>
+    <li><a class="nav" href="Home">Home</a></li>
     <li><a class="nav" href="Maths">Maths</a></li>
     <li><a class="nav" href="Computer science">Computer Science</a></li>
     <li><a class="nav" href="General Knowledge">General knowledge</a></li>
