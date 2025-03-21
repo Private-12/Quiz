@@ -6,7 +6,7 @@
 <body>
 <script src="MyWebsite.js"></script>
 
-<h1>Quiz Show</h1>
+<h1>General knowledge</h1>
 <div>
 <p class="Boxes A">A 60 minute, 25 multiple choice Challenge. It encourages mathematical reasoning, precision of thought and fluency to make students think. The problems on the Junior Maths Challenge are accessible yet still challenge those with more experience</p>
 </div>
@@ -22,11 +22,11 @@
 <br>Chris-Teacher</p>
 </div>
 <ul>
-    <li><a class="nav" href="index.html">Home</a></li>
-    <li><a class="nav" href="Maths.html">Maths</a></li>
-    <li><a class="nav" href="CS.html">Computer Science</a></li>
-    <li><a class="nav" href="GK.html">General knowledge</a></li>
-    <li class="q"><a class="nav" href="About.html">About</a></li>
+    <li><a class="nav" href="index">Home</a></li>
+    <li><a class="nav" href="Maths">Maths</a></li>
+    <li><a class="nav" href="Computer science">Computer Science</a></li>
+    <li><a class="nav" href="General Knowledge">General knowledge</a></li>
+    <li class="q"><a class="nav" href="About">About</a></li>
   </ul>
 </body>
 </html>
