@@ -1,0 +1,41 @@
+body {
+    background-color: darkslateblue;
+}
+
+div.Text {
+padding-left: 20%;
+padding-top:10%;
+font-family:snap itc;
+position: relative;
+animation-name: Float;
+animation-duration: 7s;
+}
+@keyframes Float {
+    from {left: -100%;}
+    to {left: 0%;}
+    }
+h1
+.Quiz {
+color: red;
+font-family:showcard gothic;
+font-size: 90px;
+}
+.Show {
+color: yellow;
+font-size: 65px;
+}
+img {
+    height:auto;
+    position: fixed;
+    top: -2.5%;
+    left: -4%;
+    animation-name: enlarge;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+}
+@keyframes enlarge {
+    from{max-width: 0%;}
+    to{max-width: 15%;}
+
+}

@@ -77,3 +77,10 @@ li a.nav:hover{
 li a.active {
     background-color: darkred !important;
    }
+   img {
+    height:auto;
+    max-width: 15%;
+    position: fixed;
+    top: -2.5%;
+    left: -4%;
+}       
