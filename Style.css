@@ -30,8 +30,8 @@ img {
     top: -2.5%;
     left: -4%;
     animation-name: enlarge;
-    animation-duration: 2s;
-    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-delay: 4s;
     animation-fill-mode: both;
 }
 @keyframes enlarge {
