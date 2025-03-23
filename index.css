@@ -46,7 +46,7 @@ ul {background-color: lightcoral;
     position: fixed;
     bottom: 0;
     height: 5%;
-    width:-webkit-fill-available;
+    width:100%;
     line-height: 3 !important;
     padding: 0;
 }
@@ -66,10 +66,9 @@ li a.nav{
 li a.nav:hover{
     background-color: crimson;
 }
-.q {float:inline-end; 
+.right {
+    position: absolute;
     text-align:center;
-    display:block;
-    padding-top:0%;
     padding-bottom:100%;
     padding-left:2.5%;
     padding-right: 1%;
@@ -77,6 +76,7 @@ li a.nav:hover{
     color: white;
     text-decoration: none;
     border-right: 0px !important;
+    right:7%;
    }
 li a.active {
     background-color: darkred !important;
@@ -87,4 +87,11 @@ li a.active {
     position: fixed;
     top: -2.5%;
     left: -4%;
+}
+.righ {
+    border-right: none !important;
+    border-left: 1px solid pink;
+    position: absolute !important;
+    width: 225%;
+    text-align: center;
 }       
