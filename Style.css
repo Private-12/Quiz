@@ -3,7 +3,7 @@ body {
 }
 
 div.Text {
-padding-left: 20%;
+padding-left: 15%;
 padding-top:10%;
 font-family:snap itc;
 position: relative;
@@ -18,7 +18,7 @@ h1
 .Quiz {
 color: red;
 font-family:showcard gothic;
-font-size: 90px;
+font-size: 75px;
 }
 .Show {
 color: yellow;
@@ -39,3 +39,8 @@ img {
     to{max-width: 15%;}
 
 }
+.TXT {
+    float: left;
+    padding-left: 5%;
+}
+
