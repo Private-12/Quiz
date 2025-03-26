@@ -1,5 +1,7 @@
 html {
     margin: 0;
+    animation-name: color-transition;
+    animation-duration: 3s;
 }
 body {
     background-color: darkslateblue;
@@ -94,4 +96,13 @@ li a.active {
     position: absolute !important;
     width: 225%;
     text-align: center;
-}       
+}
+
+@keyframes color-transition {
+    0% {
+      filter: grayscale(100%);
+    }
+    100% {
+      filter: grayscale(0);
+    }
+  }
