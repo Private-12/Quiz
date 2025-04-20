@@ -1,7 +1,8 @@
 body {
     background-color: darkslateblue;
+    margin: 0;
+    padding:0;
 }
-
 div.Text {
 padding-left: 15%;
 padding-top:10%;
@@ -9,12 +10,12 @@ font-family:snap itc;
 position: relative;
 animation-name: Float;
 animation-duration: 7s;
+margin: 0;
 }
 @keyframes Float {
     from {left: -100%;}
     to {left: 0%;}
     }
-h1
 .Quiz {
 color: red;
 font-family:showcard gothic;
@@ -34,33 +35,33 @@ img {
     animation-delay: 4s;
     animation-fill-mode: both;
 }
-@keyframes enlarge {
-    from{max-width: 0%;}
-    to{max-width: 15%;}
-
-}
 .TXT {
     float: left;
     padding-left: 5%;
 }
 .Button {
-    width: 8.20%;
+    right:0;
+    top:0;
     height: 1.5%;
     font-size: 20px;
     color: whitesmoke;
     text-decoration: none;
     text-align: center;
     background-color: lightcoral ;
-    position: absolute;
+    position: fixed;
     display: block;
     padding-bottom: 1%;
     padding-top: 1%;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-right: 1%;
+    padding-left: 1%;
     bottom: 45%;
-    border:1px solid pink;
-    animation-name: float;
-    animation-duration: 7s;
+    border-left:1px solid pink;
+    border-bottom:1px solid pink;
+    border-right: 0;
+    border-top:0;
+    animation-name: enlarge;
+    animation-duration: 3s;
+    animation-delay: 4s;
     animation-fill-mode: both;
 }
 .Button:hover{
@@ -68,7 +69,13 @@ img {
 }
 @keyframes float {
     from {right: 117%;}
-    to {right: 17%;}
+    to {right: 0;}
 }
-
-
+@keyframes enlarge {
+    from
+    {max-width: 0%;
+    opacity: 0;}
+    to
+    {max-width: 15%;
+    opacity: 1;}
+}
