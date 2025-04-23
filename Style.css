@@ -1,5 +1,5 @@
 body {
-    background-color: darkslateblue;
+    background-color: rgb(200, 180, 255);
     margin: 0;
     padding:0;
 }
@@ -47,7 +47,7 @@ img {
     color: whitesmoke;
     text-decoration: none;
     text-align: center;
-    background-color: lightcoral ;
+    background-color: rgb(50,40,100);
     position: fixed;
     display: block;
     padding-bottom: 1%;

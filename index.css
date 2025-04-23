@@ -1,7 +1,7 @@
 html {
     margin: 0;
     animation-name: color-transition;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 @keyframes color-transition {
     0% {
@@ -12,13 +12,22 @@ html {
     }
   }
 body {
-    background-color: darkslateblue;
-    overflow: visible;
+    background-color: rgb(200, 180, 255);
+    overflow: auto;
     margin: 0;
 }
+div { margin: 0;}
+::-webkit-scrollbar {
+  display: none;
+  }
 h1 { 
+    font-size: 60px;
     text-align: center;
-    color: red
+    font-family: Arial, sans-serif;
+    color: rgb(40, 40, 100);
+    text-shadow: 0px 0px 10px rgb(255,140,140);
+    position:absolute;
+    left: 42%;
 }
 .Boxes {
     color: rgb(99, 1, 99);
@@ -30,26 +39,15 @@ h1 {
 .B {
     text-align: right;
 }
-div {
-  width: 33%;
-  display: inline-block;
-}
 a {
     text-align: center;
-    color: darkslateblue;
+    color:rgb(200, 180, 255)
 }
-.link{
-    background-color: lightcoral;
-    font-size: xx-large;
-    text-align: center;   
-}
-.link:hover{ 
-    background-color: blue;
-    color:red;}
 li {
     display: inline;
 }
-ul {background-color: lightcoral;
+ul {border-bottom: 3px solid rgb(90, 50, 140);
+    background-color: rgb(30,20,70);
     list-style-type: none;
     margin: 0;
     overflow:hidden;
@@ -59,22 +57,37 @@ ul {background-color: lightcoral;
     width:100%;
     line-height: 3 !important;
     padding: 0;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 2s ease-in-out forwards;
 }
 li a.nav{
+    cursor: pointer;
     text-align:center ;
     display:block;
     padding-top:10%;
     padding-bottom:100%;
     padding-left:2.5%;
     padding-right:2.5%;
-    background-color: lightcoral;
+    background-color: rgb(30,20,70);
     display: inline;
     color: white;
     text-decoration: none;
-    border-right: 1px solid pink;
+    border-right: 1px solid rgb(90, 50, 140);
+    transition: color 1s ease-in-out;
 }
 li a.nav:hover{
-    background-color: crimson;
+    background-color:rgb(255,200,150);
+    color: rgb(40,40,90);
+    padding-top:12%;
+    padding-bottom:100%;
+    padding-left:3%;
+    padding-right:3%;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
 }
 .right {
     position: absolute;
@@ -82,16 +95,16 @@ li a.nav:hover{
     padding-bottom:100%;
     padding-left:2.5%;
     padding-right: 1%;
-    background-color: lightcoral;
+    background-color:rgb(30,20,70);
     color: white;
     text-decoration: none;
     border-right: 0px !important;
     right:7%;
    }
 li a.active {
-    background-color: darkred !important;
-   }
-   img {
+    background-color: rgb(255,165,70) !important;
+}
+img.Logo {
     height:auto;
     max-width: 15%;
     position: fixed;
@@ -100,9 +113,82 @@ li a.active {
 }
 .righ {
     border-right: none !important;
-    border-left: 1px solid pink;
+    border-left: 1px solid rgb(90, 50, 140);
     position: absolute !important;
     width: 225%;
     text-align: center;
 }
-
+.platform {
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    overflow: hidden;
+}
+.platform1 {
+    display: inline-block;
+    position: absolute;
+    top: 57%;
+    width: 100%;
+    overflow: hidden;
+}
+.plat {
+    border: 5px solid rgb(100,100,160);
+    display: block;
+    width: 25%;
+    text-align: center;
+}
+.plat.H{
+    border-radius: 30px;
+    color: rgb(230, 135, 13);
+    text-shadow: 2px 2px 5px rgb(120, 120, 150);
+    font-size: 45px;
+    line-height: 0;
+    position: relative;
+}
+.plat.P{
+    border-radius: 10px;
+    background-color: rgb(220, 230, 255);
+    color: black;
+    font-size: 30px;
+}
+.P1{left: 5%;}
+.P2{left: 35%;}
+.P3{left: 65%;}
+.P4{left: 95%;}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.scroll{
+    position: fixed;
+    max-width: 5%;
+    cursor: pointer;
+    opacity: 35%;}
+.scroll:hover{
+    opacity: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+.ScrollLeft{
+    left: -1.2%;
+    transform: rotate(90deg);
+}
+.ScrollRight{
+    transform: rotate(270deg);
+    right: -1.2%;
+}
+.s1{top:35%;}
+.s2{top:74%;}
+.header{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    position: absolute;
+}
+.scrollDiv{margin: 0;}
