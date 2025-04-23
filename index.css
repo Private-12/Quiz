@@ -21,7 +21,6 @@ div { margin: 0;}
   display: none;
   }
 h1 { 
-    font-size: 60px;
     text-align: center;
     font-family: Arial, sans-serif;
     color: rgb(40, 40, 100);
@@ -121,14 +120,14 @@ img.Logo {
 .platform {
     display: inline-block;
     position: absolute;
-    top: 18%;
+    top: 13%;
     width: 100%;
     overflow: hidden;
 }
 .platform1 {
     display: inline-block;
     position: absolute;
-    top: 57%;
+    top: 55%;
     width: 100%;
     overflow: hidden;
 }
@@ -142,7 +141,7 @@ img.Logo {
     border-radius: 30px;
     color: rgb(230, 135, 13);
     text-shadow: 2px 2px 5px rgb(120, 120, 150);
-    font-size: 45px;
+    font-size: 35px;
     line-height: 0;
     position: relative;
 }
@@ -150,7 +149,7 @@ img.Logo {
     border-radius: 10px;
     background-color: rgb(220, 230, 255);
     color: black;
-    font-size: 30px;
+    font-size: 20px;
 }
 .P1{left: 5%;}
 .P2{left: 35%;}
@@ -183,8 +182,8 @@ img.Logo {
     transform: rotate(270deg);
     right: -1.2%;
 }
-.s1{top:35%;}
-.s2{top:74%;}
+.s1{top:30%;}
+.s2{top:72%;}
 .header{
     width: 100vw;
     height: 100vh;
